@@ -16,7 +16,7 @@ Redação
 
 	Para finalizar, nada do que foi citado, tem a intenção de diminuir a importância da inteligência artificial, isso só serve de alerta, para que nenhuma pessoa se coloque por completo nas mãos de algo que não sabemos até aonde pode chegar.   
 
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Job Rotation - Ribeirão Preto - ATUALIZADO Observe o trecho de código abaixo: 
 
@@ -32,7 +32,8 @@ Ao final do processamento, qual será o valor da variável SOMA?
 
 R: O código acima é um laço de repetição "enquanto" que soma os números de 1 até 13 e armazena o resultado na variável SOMA. Na primeira iteração do laço, K será 1 e SOMA será 1. Na segunda iteração, K será 2 e SOMA será 3 (SOMA + K). O processo continua até que K seja igual a 13 e SOMA seja igual a 91 (1 + 2 + 3 + ... + 13). Após o término do laço, o valor de SOMA será impresso.
 
------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 Q2 - Dado a sequência de Fibonacci, onde se inicia por 0 e 1 e o próximo valor sempre será a soma dos 2 valores anteriores (exemplo: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34...), escreva um programa na linguagem que desejar onde, informado um número, ele calcule a sequência de Fibonacci e retorne uma mensagem avisando se o número informado pertence ou não a sequência.
 
 IMPORTANTE: Esse número pode ser informado através de qualquer entrada de sua preferência ou pode ser previamente definido no código;
@@ -54,7 +55,7 @@ if fib_atual == num:
 else:
     print(num, "não pertence à sequência de Fibonacci.")
 
------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
 Q3 -  Descubra a lógica e complete o próximo elemento: 
 a) 1, 3, 5, 7, ___9   Segue uma sequência de dois em dois.
 b) 2, 4, 8, 16, 32, 64, ____128   Segue a sequência dos bits
@@ -117,11 +118,13 @@ distância do caminhão até Ribeirão Preto = distância percorrida pelo caminh
 distância do caminhão até Ribeirão Preto = 58 km
 
 Portanto, quando os veículos se cruzarem na rodovia, o carro estará mais próximo da cidade de Ribeirão Preto, a uma distância de 50,5 km, enquanto o caminhão estará a uma distância de 58 km.
------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Q5 - Escreva um programa que inverta os caracteres de um string. 
 
-IMPORTANTE: a) Essa string pode ser informada através de qualquer entrada de sua preferência ou pode ser previamente definida no código; 
+IMPORTANTE: 
+
+a) Essa string pode ser informada através de qualquer entrada de sua preferência ou pode ser previamente definida no código; 
 
 b) Evite usar funções prontas, como, por exemplo, reverse; 
 
@@ -150,5 +153,3 @@ Exemplo mais simples:
 2-Criar uma nova string vazia;
 3-Percorrer a string original do final para o início e concatenar cada caractere na nova string;
 4-Imprimir a nova string com os caracteres invertidos.
-
-
